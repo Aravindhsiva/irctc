@@ -1,0 +1,45 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    margin-top:20px;
+}
+.contain{
+    width: 700px;
+    margin: 0 auto !important;
+}
+.form-control{
+    width: 250px !important;
+ }
+.cards{
+    display: inline-block !important;
+    width: 280px;
+    margin: 100 auto;
+    border:2px solid #09adff;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.date, .avail, .confirm, .inline{
+    display: inline;
+    margin-right: 5px;
+}
+img{
+    width: 240px;
+}
+#load{
+    margin-top: 12px;
+}
+.btn-danger{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 12px !important;
+    }
+    .contain{
+        margin-top: 30px !important;
+        margin-left: 130px !important;
+    }
+}
