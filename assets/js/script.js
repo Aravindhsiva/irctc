@@ -2,7 +2,7 @@ function goclick(){
     document.getElementById("space").innerHTML="<img src='assets/img/load.gif' id='load'>";
     var tNum = document.getElementById("trainNum").value;
     var tDate = document.getElementById("date").value;
-    var apiKey = "35a137743e32fa6a229eac484c993fff";
+    var apiKey = "0635a562bd54f0c3e60114d4f000b0e4";
     var pref = "";
     var src ="";
     var dest = "";
